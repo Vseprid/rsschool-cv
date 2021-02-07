@@ -29,3 +29,30 @@
 
 *Lack of experience in teamwork. Has a minimum experience in freelancing (designed 1 site)*\
 *I continue to study and develop in front-end development.*
+
+
+## *Skills*
+
++ HTML
++ CSS (including Flexbox and Grid)
++ learning JavaScript
++ Bootstrap
++ GIT
++ Markdown
++ Visual Studio Code
+
+## *Сode examples*
+
+```
+<div class="hero"><img src="images/4rs-cLW_B38.jpg" alt="Красивое здание"></div>
+        <div class="section">
+            <h1 class="heading">Мы предоставляем вам дом построенный по немецкой технолии "Фахверх".</h1>
+            <p class="description">
+                Для наших домов фахверк используем только экологичные материалы. Благодаря этому жить в наших домах
+                безопасно для здоровья вашей семьи.
+            </p>
+            <div class="photo photo-1"><img src="images/E_GRVSZNNMQ.jpg" alt=""></div>
+            <div class="photo photo-2"><img src="images/FcNh92zW0XQ.jpg" alt=""></div>
+
+        </div>
+```
