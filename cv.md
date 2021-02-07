@@ -56,3 +56,9 @@
 
         </div>
 ```
+
+## English
+
+*English level* **A2**
+
+*I can read and write in English*
