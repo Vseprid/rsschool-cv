@@ -8,58 +8,88 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Open+Sans:ital,wght@0,400;0,600;0,800;1,300&display=swap"
+        rel="stylesheet">
     <title>CV</title>
 </head>
 
 <body>
+
+    <header>
+        <div class="container hero">
+
+            <figure>
+                <img src="tXyhAuz6R48.jpg" alt="Фотография Летова. Как нибудь вставлю свою">
+            </figure>
+            <div class="general-information">
+                <h1>
+                    Ilia <br> Dvorchuk
+                </h1>
+                <p>Frontend Developer</p>
+            </div>
+        </div>
+
+    </header>
     <main>
         <div class="container">
-            <section>
-                <h2>
-                    <i> My name</i>
-                </h2>
-                <p>
-                    <b>Name Ilia Dvorchuk</b>
-                </p>
-            </section>
-            <section>
-                <h2>
-                    <i>Contacts for communication</i>
-                </h2>
-                <p> <b>Telegram</b> <a href="https://t.me/gettlan">https://t.me/gettlan</a></p>
-                <p> <b>Vk.com</b> <a href="https://vk.com/wibepos">https://vk.com/wibepos</a> </p>
-                <p> <b>Skype </b> live:.cid.2a5ef29857953290</p>
-                <p> <b>Email</b> <a href="mailto:vseprid@gmail.com">vseprid@gmail.com</a> </p>
+
+            <h2>
+                <i>Contacts for communication</i>
+            </h2>
+            <ul>
+                <li>
+                    <b>Telegram</b> <a href="https://t.me/gettlan">https://t.me/gettlan</a>
+                </li>
+                <li>
+                    <b>Vk.com</b> <a href="https://vk.com/wibepos">https://vk.com/wibepos</a>
+                </li>
+                <li>
+                    <b>Skype </b> live:.cid.2a5ef29857953290
+                </li>
+                <li>
+                    <b>Email</b> <a href="mailto:vseprid@gmail.com">vseprid@gmail.com</a>
+                </li>
+            </ul>
             </section>
             <section>
                 <h2>
                     <i>Personal information</i>
-                    <h3>
-                        <i>Objective</i>
-                    </h3>
-                    <p>
-                        <i>I am seeking employment with a company where I can use my
-                            knowledge in front-end development with the opportunity to apply
-                            my knowledge in interesting projects.</i>
-                    </p>
-                    <h3>
-                        <i>Personal qualities</i>
-                    </h3>
-                    <ul>
-                        <li>Enthusiasm and personal drive</li>
-                        <li>Willingness to learn</li>
-                        <li>Interpersonal skills</li>
-                        <li>Concentrated – I’m goal-oriented person</li>
-                    </ul>
-                    <h3>
-                        <i>Work experience</i>
-                    </h3>
-                    <p>
-                        <i>Lack of experience in teamwork. Has a minimum experience in freelancing (designed 1 site)
-                            <br>
-                            I continue to study and develop in front-end development.</i>
-                    </p>
                 </h2>
+                <h3>
+                    <i>Objective</i>
+                </h3>
+                <p>
+                    <i>I am seeking employment with a company where I can use my
+                        knowledge in front-end development with the opportunity to apply
+                        my knowledge in interesting projects.</i>
+                </p>
+                <h3>
+                    <i>Personal qualities</i>
+                </h3>
+                <ul>
+                    <li>Enthusiasm and personal drive</li>
+                    <li>Willingness to learn</li>
+                    <li>Interpersonal skills</li>
+                    <li>Concentrated – I’m goal-oriented person</li>
+                </ul>
+                <h3>
+                    <i>Work experience</i>
+                </h3>
+                <p>
+                    <i>Lack of experience in teamwork. Has a minimum experience in freelancing (designed 1 site)</i>
+
+                </p>
+                <h3>
+                    Education
+                </h3>
+                <p>
+                    <I>I continue to study and develop in front-end development. Passed the course for Stepik. I am
+                        engaged in self-education</i>
+
+                </p>
             </section>
             <section>
                 <h2>
@@ -79,28 +109,39 @@
                 <h2>
                     <i>Сode examples</i>
                 </h2>
-                <code>
+                <pre>
+                        <code>
 
-                    <p>#### *Objective*</p>
-                    <p>+ HTML <br>
-                        + CSS (including Flexbox and Grid) <br>
-                        + learning JavaScript <br>
-                        + Bootstrap</p>
-                    <p>*English level* **A2**</p>
+                            let animals = ['Кот', 'Рыба', 'Лемур', 'Комодский варан'];
 
-                </code>
+                                for (let i = 0; i < animals.length; i++) {
+                                animals[i] = `${animals[i]} — прекрасное животное`;
+                                }
+
+                            console.log(animals);
+
+                        </code>
+                    </pre>
             </section>
             <section>
                 <h2>
                     <i>English</i>
                 </h2>
-                <p> <i>English level</i> <b>A2</b></p>
-                <p>
-                    <i>I can read and write in Englishf</i>
+                <p> <i>English level</i> <b>A2</b>
+                </p>
+                <p class="last-paragraph">
+                    <i>I can read and write in English</i>
                 </p>
             </section>
         </div>
     </main>
+    <footer>
+        <div class="container footer">
+            <p>My Githab: <a href="https://github.com/Vseprid">https://github.com/Vseprid</a></p>
+            <p>2021 год</p>
+        </div>
+    </footer>
+
 
 </body>
 
