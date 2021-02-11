@@ -1,5 +1,6 @@
 header {
     background-color: #4e5056;
+    font-family: 'Open Sans', sans-serif;
 }
 .container {
     margin: 0 auto;
@@ -9,7 +10,7 @@ header {
 }
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -18,7 +19,7 @@ img {
     border-radius: 50%;
 }
 .general-information {
-    font-size: 45px;
+    font-size: 35px;
     letter-spacing: 8px;
     color: #ffffff;
     font-weight: 700;
@@ -30,4 +31,11 @@ main {
 h2 {
    margin-top: 0;
    padding-top: 20px;
+   font-family: 'Josefin Sans', sans-serif;
+}
+h3 {
+    font-size: 18px;
+    color: #3e4146;
+    font-weight: 600;
+    font-family: "Open Sans";
 }
