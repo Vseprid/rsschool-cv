@@ -1,6 +1,33 @@
+header {
+    background-color: #4e5056;
+}
 .container {
     margin: 0 auto;
     max-width: 1000px;
     padding-left: 50px;
     padding-right: 50px;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+img {
+    width: 350px;
+    border-radius: 50%;
+}
+.general-information {
+    font-size: 45px;
+    letter-spacing: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+main {
+    background-color: #ecf0f1;
+}
+h2 {
+   margin-top: 0;
+   padding-top: 20px;
 }
