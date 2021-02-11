@@ -33,9 +33,28 @@ h2 {
    padding-top: 20px;
    font-family: 'Josefin Sans', sans-serif;
 }
+h2:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #43454b;
+  }
+
 h3 {
     font-size: 18px;
     color: #3e4146;
     font-weight: 600;
     font-family: "Open Sans";
+}
+li {
+    font-size: 18px;
+color: #43454b;
+font-weight: 600;
+font-family: "Open Sans";
+}
+p {
+
+font-size: 14px;
+font-weight: 300;
+font-family: "Open Sans";
 }
